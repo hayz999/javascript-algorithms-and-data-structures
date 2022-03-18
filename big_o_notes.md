@@ -88,4 +88,16 @@ To run a JS  file in the terminal just type `node filename.js`
 - Sometimes big O expressions involve more complex mathematical expressions
 - what is a logarithm (or log)
   - log2(value) = exponent -> 2^exponent = value
+- the logarithm of a number roughly measures the number of times you can divide that number by 2 **before you get a value that's less than or equal to one**
+- logarithmic time complexity of **O(log n)** is great!
+- certain searching algorithms have logarithmic time complexity
+- efficient sorting algorithms involve logs
+- recursion sometimes involved logarithmic space complexity
+
+## Big O of objects
+- when to use objects:
+  - when you don't need ordered data
+  - when you need fast access/insertion and removal
+  - Insertion, Removal,and Access are all **O(1)**
+  - Searching is **O(n)**
 
