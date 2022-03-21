@@ -100,4 +100,36 @@ To run a JS  file in the terminal just type `node filename.js`
   - when you need fast access/insertion and removal
   - Insertion, Removal,and Access are all **O(1)**
   - Searching is **O(n)**
+  - when you don't need any ordering objects are an excellent choice
+- big O of object methods:
+  - Object.keys - O(n)
+  - Object.values - O(n)
+  - Object.entries - O(n)
+    - compiles keys and values
+  - hasOwnProperty - O(1)
+
+## Big O of Arrays
+- arrays are ordered lists
+- use arrays when you need fast access/insertion and removal (sort of...)
+- time complexity of array functionality:
+  - insertion - it depends
+    - this depends on how you insert the data:
+      - adding to end of the array is constant time of O(1) - `push`
+      - adding to the front of the array is more complex because it will re-index the entire array, so that would be O(n) where n is the size of the array - `shift`
+  - removal - it depends
+    - removing from the end is O(1) - `pop`
+    - removal follows the same logic as adding, removing from the beginning of the array will be O(n) - `unshift`
+  - searching - O(n)
+  - access - O(1)
+    - example: `array[index]` is constant time to access that item
+- big O of built in array methods:
+  - push - O(1)
+  - pop - O(1)
+  - shift - O(n)
+  - unshift - O(n)
+  - concat - O(n)
+  - slice - O(n)
+  - splice - O(n)
+  - sort - O(n * log n)
+  - forEach/map/filter/reduce/etc. - O(n)
 
