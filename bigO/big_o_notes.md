@@ -1,6 +1,7 @@
 To run a JS  file in the terminal just type `node filename.js`
 
 # Big O Notation
+![](/imgs/big_o.png)
 
 ## Whats the need for Big O ?
 - imagine we have multiple implementations of the same function, how do we decide what is the best solution?
