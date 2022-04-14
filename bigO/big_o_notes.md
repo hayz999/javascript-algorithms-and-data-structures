@@ -36,13 +36,13 @@ To run a JS  file in the terminal just type `node filename.js`
     - f(n) could be constant (f(n) = 1)
     - f(n) could be something entirely different 
   - the below function has a Big O of **O(1)**  (constant) since the complexity remains constant no matter what *n* is 
-  ```
+  ```javascript
   function sumNumbers2(n) {
     return n * (n + 1) / 2
   }
   ```
   - the below function has a complexity of **O(n)** (linear)
-  ```
+  ```javascript
   function sumNumbers(n) {
     let total = 0
     for (let i = 1; i <= n; i++) {
